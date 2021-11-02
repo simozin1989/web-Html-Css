@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stayle.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo">
+            <div class="header-text">
+                <h1>The pupose is to teach ,<br> brinng learnig to people </h1>
+                <span class="square"></span>
+                <p>How To Make Complete Website Using HTML And CSS | Responsive Website Tutorial</p>
+                <button class="common-btn">Read More</button>
+            </div>
+            <din class="line">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </din>
+        </div>
+    </section>
+
+    <nav id="sideNave">
+        <ul>
+            <li><a href="">Home</li>
+            <li><a href="">Avout us</a></li>
+            <li><a href="">Feature</a></li>
+            <li> <a href="">Ciurce</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+    </nav>
+    <img src="images/menu.png" id="menu-btn">
+
+
+    <!--about-->
+    <section id="about">
+        <din class="about-left-col">
+            <img src="images/about.png" alt="">
+        </din>
+        <din class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p> that you can attach to an object. This can be useful for storing additional information about the
+                    object in a structured format. Individual keys can be unset by posting an empty value to them. All
+                    keys can be unset by posting an empty value to</p><br><br>
+                <din class="line">
+                    <span class="line-1"></span>
+                    <span class="line-2"></span>
+                    <span class="line-3"></span>
+                </din>
+                <h2>Website Using HTML And CSS | Responsive Website Tutorial</h2>
+                <h3>---Aliou mohamed---</h3>
+            </div>
+        </din>
+    </section>
+
+    <!--features-->
+    <section id="features">
+        <div class="featur-row">
+            <div class="feature-col">
+                <img src="images/pic-1.png" alt="">
+                <h4>Learn Anywhere</h4>
+                <p>How To Make Complete Website Using HTML And CSS | Responsive Website Tutorial</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-2.png" alt="">
+                <h4>Unlimted Access</h4>
+                <p>How To Make Complete Website Using HTML And CSS | Responsive Website Tutorial</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-3.png" alt="">
+                <h4>Expert Teacher</h4>
+                <p>How To Make Complete Website Using HTML And CSS | Responsive Website Tutorial</p>
+
+
+            </div>
+        </div>
+        <div class="feature-btn">
+            <button class="common-btn">Start for free</button>
+        </div>
+    </section>
+    <!--cource-->
+
+    <section id="courses">
+        <din class="container cource-row">
+            <div class="course-left-col">
+                <div class="cource-text">
+                    <h1>Brow Cur Top<br>Courses<br></h1>
+                    <p>How To Make Complete Website Using HTML And CSS | Responsive Website Tutorial</p>
+                    <button class="common-btn">View all Coursess</button>
+                </div>
+            </div>
+            <div class="course-reght-col">
+                <img src="images/course.png" alt="">
+            </div>
+
+        </din>
+    </section>
+    <!--Offer-->
+    <section id="offer">
+        <din class="about-left-col">
+            <img src="images/offer.png" alt="">
+        </din>
+        <din class="about-right-col">
+            <div class="about-text">
+                <h1>Offer</h1>
+                <span class="square"></span>
+                <p> that you can attach to an object. This can be useful for storing additional information about the
+                    object in a structured format. Individual keys can be unset by posting an empty value to them. All
+                    keys can be unset by posting an empty value to</p><br><br>
+                <button class="common-btn">Start for free</button>
+                <din class="line">
+                    <span class="line-1"></span>
+                    <span class="line-2"></span>
+                    <span class="line-3"></span>
+                </din>
+                <h2>Website Using HTML And CSS | Responsive Website Tutorial</h2>
+
+
+            </div>
+        </din>
+    </section>
+
+
+
+
+    <script>
+        var menuNtn = document.getElementById("menu-btn");
+        var sideNav = document.getElementById("sideNave");
+        sideNav.style.right = "-250px";
+        menuNtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            } else {
+                sideNav.style.right = "-250px"
+            }
+        }
+    </script>
+</body>
+
+</html>

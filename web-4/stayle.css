@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    font-family: Comic Sans MS;
+ 
+}
+
+.container{
+    margin-right:  100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 20px;
+    width: 100px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+.common-btn{
+    padding: 10px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.header-text button{
+   margin-top: 20px;
+   margin-bottom: 60px;
+}
+.line-1, .line-2,.line-3{
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+#sideNave{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #f67c92;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menu-btn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 65px;
+    z-index: 2;
+    cursor: pointer;
+}
+/*  about */
+#about #offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+}
+.about-right-col{
+   flex-basis: 50%;
+   text-align: right;
+   font-family: Comic Sans MS;
+}
+.about-text{
+    max-width: 500%;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+
+}
+.about-text h3{
+    font-size: 20px;
+   color: #797979;
+}
+/*  ---features---*/
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.featur-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col{
+    flex-basis: 25%;
+    text-align: center; 
+}
+.feature-col img{
+width: 100px;
+}
+.feature-col h4, h1,p{
+    font-family: Comic Sans MS;
+    margin-top: 10px;
+}
+.feature-btn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* --cource---   */
+#courses{
+    padding: 100px 0;
+
+}
+.cource-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-reght-col{
+    flex: 50%;
+
+}
+.course-reght-col img{
+width: 100%;
+
+}
+.course-left-col {
+    flex-basis: 50%;
+   
+}
+.cource-text{
+    max-width: 350px;
+}
+.cource-text button{
+    margin: 30px 0;
+}
+#offer button{
+margin: 30px 0;
+}
+@media only screen and (max-width:770px){
+    #header{
+        background-image: none;
+    }
+   
+    .container{
+        margin-right:  50px;
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: 20px;
+        width: 70px;
+    }
+    .header-text{
+        margin-top: 100px;
+    }
+    h1{
+        font-size:25px;
+    }
+    #menu-btn{
+        width: 40px;
+        right: 50px;
+      
+    }
+    .common-btn{
+        padding: 10px 16px;
+       
+    }
+    .about-left-col, .about-right-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+      
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2 ,h1{
+        font-size: 16px;
+    }
+    .feature-col{
+        flex-basis: 100%;
+        margin-bottom: 30%;
+    }
+    .course-left-col,.course-reght-col{
+        flex-basis: 100% ;
+        margin-top: 70px;
+
+    }
+}
